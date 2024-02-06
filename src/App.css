@@ -1,5 +1,5 @@
 body {
-  background: url("https://images.unsplash.com/photo-1483043012503-8a8849b4c949?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+  background: url("https://static.vecteezy.com/system/resources/previews/002/274/058/non_2x/a-woman-is-standing-with-arms-wide-open-in-a-clear-sky-and-a-wide-field-hand-drawn-style-design-illustrations-vector.jpg")
     center / cover no-repeat;
   margin: 0;
   padding: 0;
@@ -32,17 +32,17 @@ h1 {
 
 @keyframes fall {
   0% {
-    opacity: 0;
+    opacity: 100;
   }
   3% {
-    opacity: 0.9;
+    opacity: 100;
   }
 
   90% {
-    opacity: 0.9;
+    opacity: 100;
   }
   100% {
     transform: translate(0, 97vh);
-    opacity: 0;
+    opacity: 100;
   }
 }
