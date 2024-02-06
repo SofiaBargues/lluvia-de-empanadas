@@ -6,7 +6,7 @@ function Snow() {
   const arr = Array.from("Hay empanadas <3");
   const images = "/empanada.svg";
 
-  return arr.map((el, i) => {
+  return arr.map((i) => {
     animationDelay = `${(Math.random() * 16).toFixed(2)}s`;
     fontSize = `${Math.floor(Math.random() * 10)}px`;
     const style = { animationDelay, fontSize };
